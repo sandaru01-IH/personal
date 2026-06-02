@@ -3,8 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sandaruwan Sankalpa — Entrepreneur & Researcher</title>
-  <meta name="description" content="Sandaruwan Sankalpa — Entrepreneur, Researcher & Co-Founder at AlphaGRID. Building ventures, studying ideas." />
+  <title>Sandaruwan Sankalpa Silva — Entrepreneur &amp; Researcher</title>
+  <meta name="description" content="Sandaruwan Sankalpa Silva — Entrepreneur, Researcher &amp; Co-Founder at AlphaGRID. Building ventures, studying ideas, and turning research into real-world impact." />
+  <meta name="keywords" content="Sandaruwan Sankalpa, Entrepreneur, Researcher, AlphaGRID, venture building, business strategy" />
+  <meta name="author" content="Sandaruwan Sankalpa Silva" />
+  <link rel="canonical" href="https://sandaruwan.biz/" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="theme-color" content="#080808" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sandaruwan.biz/" />
+  <meta property="og:title" content="Sandaruwan Sankalpa Silva — Entrepreneur &amp; Researcher" />
+  <meta property="og:description" content="Entrepreneur, Researcher &amp; Co-Founder at AlphaGRID. Building ventures and studying ideas that create real-world impact." />
+  <meta property="og:image" content="https://sandaruwan.biz/me2.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sandaruwan Sankalpa Silva — Entrepreneur &amp; Researcher" />
+  <meta name="twitter:description" content="Entrepreneur, Researcher &amp; Co-Founder at AlphaGRID. Building ventures and studying ideas that create real-world impact." />
+  <meta name="twitter:image" content="https://sandaruwan.biz/me2.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -810,6 +828,41 @@
   </footer>
 
 <script>
+/* ── DEVTOOLS / INSPECT PROTECTION ── */
+let devtools = { open: false };
+
+const threshold = 160;
+setInterval(() => {
+  if (window.outerHeight - window.innerHeight > threshold) {
+    devtools.open = true;
+  } else {
+    devtools.open = false;
+  }
+}, 500);
+
+setInterval(() => {
+  if (devtools.open) {
+    document.body.style.display = 'none';
+    // Or hide specific element:
+    // document.getElementById('sensitive-content').style.display = 'none';
+  } else {
+    document.body.style.display = '';
+  }
+}, 500);
+
+document.addEventListener('contextmenu', (e) => {
+  e.preventDefault();
+  return false;
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'F12' ||
+      (e.ctrlKey && e.shiftKey && e.key === 'I') ||
+      (e.ctrlKey && e.shiftKey && e.key === 'C')) {
+    e.preventDefault();
+  }
+});
+
 /* ── CUSTOM CURSOR ── */
 const cur = document.getElementById('cur');
 const curR = document.getElementById('cur-ring');
